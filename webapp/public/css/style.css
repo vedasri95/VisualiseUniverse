@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  padding-top: 80px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#site-title {
+  padding-top: 25px;
+  color: #000080;
+  font-size: 50px;
+  font-style: bold;
+  font-family: 'Bebas Neu';
+}
+
+h1, h2, h3, h4, h5 {
+  color: #000080;
+}

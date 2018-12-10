@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visualize the Universe</title>
+    {{>head}}
+  </head>
+  <body>
+    <div class="page-container">
+      {{> top_nav}}
+      <div class="container">
+        <div class="row row-offcanvas row-offcanvas-left">
+          {{> sidebar}}
+          <div class="col-xs-12 col-sm-9" data-spy="scroll" data-target="#sidebar-nav">
+            <h1 id="data">Data</h1>
+              <p>Dataset we are using can be found: <a href="http://darksky.slac.stanford.edu/scivis2015/data/ds14_scivis_0128/" target="_blank">full dataset</a>.</p>
+              <p>There are three primary types of data:</p>
+              <p>   1. Raw particle data that is described by a position vector, velocity vector, and unique particle identifier.</p>
+              <p>   2. A Halo Catalog that defines a database that groups sets of gravitationally bound particles together into coherent structures.</p>
+              <p>   3. The final dataset type links the individual halo catalogs that each represent a snapshot in time, thereby creating a Merger Tree database.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{> footer}}
+  </body>
+</html>
