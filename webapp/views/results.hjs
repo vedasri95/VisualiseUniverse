@@ -81,12 +81,8 @@
                 <p>This visualization is a 3D scatter plot displaying the particle locations over time.</p>
                 <br>
                 <br>
-                <label for="3d-scatter-halos">You want halos with that?</label>
-                <select name="3d-scatter-halos" id="3d-scatter-halos">
-                  <option value="3d_scatter_zr">With zoom and rotation</option>
-                </select>
                 <video id="3d-scatter-vid" width="800" controls>
-                  <source id="3d-scatter-vid-src" src="/video/3d_scatter.mp4" type="video/mp4">
+                  <source id="3d-scatter-vid-src" src="/video/3d_scatter_zr.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
