@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2ae8305-b2c5-407c-b86b-ecf4c399f376" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/bin/www" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/images/ds14_scivis_0128_e4_dt04_0.9000_Projection_z_all_density.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/images/justforbrian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/images/nothingtoseehere.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/index.old.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/npm-debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/tasks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/3d_scatter.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/3d_scatter_jenny.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/3d_scatter_with_halos.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/3d_scatter_zr.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/PRISM_r.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/STD_GAMMA-II.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/afmhot.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/beach.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/blue.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/copper.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/density_over_time.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/green.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/halos_over_time.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/halos_over_time_white.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/plasma.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/purple.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/withLegend.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/video/zoom60fps.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/data.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/error.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/footer.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/hardware.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/head.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/index.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/results.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/sidebar.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/software.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/tasks.hjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/views/top-nav.hjs" beforeDir="false" />
-    </list>
+    <list default="true" id="f2ae8305-b2c5-407c-b86b-ecf4c399f376" name="Default" comment="" />
     <ignored path="cs594-final-project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/density_variation_with_time.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -463,6 +416,21 @@
       <option name="presentableId" value="Default" />
       <updated>1427061048011</updated>
     </task>
+    <task id="LOCAL-00001" summary="delete webapp">
+      <created>1544404107782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544404107782</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add webapp">
+      <created>1544404319487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544404319487</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -508,6 +476,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete webapp" />
+    <MESSAGE value="add webapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add webapp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,7 +661,7 @@
     <entry file="file://$PROJECT_DIR$/density_variation_with_time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
