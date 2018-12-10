@@ -37,14 +37,11 @@
                 <p>This visualization uses the time sequenced data files found <a href="http://darksky.slac.stanford.edu/scivis2015/data/ds14_scivis_0128/">here</a>, creating an x-axis projection of the dark matter density for each file. The images are combined at a framerate of 10 FPS (frames per second) to create a video. These images were created using yt and varying color maps. You can change the color map in the dropdown below.</p>
                 <label for="cmap">Color Map</label>
                 <select name="cmap" id="cmap">
-                  <option value="density_over_time">Red-Blue (splat)</option>
-                  <option value="withLegend">With Legend</option>
-                  <option value="PRISM_r">Prism</option>
-                  <option value="STD_GAMMA-II">Standard Gamma II</option>
-                  <option value="afmhot">AFM Hot</option>
-                  <option value="beach">Beach</option>
-                  <option value="blue">Blue</option>
-                  <option value="green" selected="selected">Green</option>
+                  <option value="green">Green</option>
+                  <option value="plasma">Plasma</option>
+                  <option value="purple">Purples</option>
+                  <option value="copper">Copper</option>
+
                 </select>
                 <br>
                 <br>
