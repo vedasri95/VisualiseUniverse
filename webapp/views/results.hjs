@@ -83,10 +83,7 @@
                 <br>
                 <label for="3d-scatter-halos">You want halos with that?</label>
                 <select name="3d-scatter-halos" id="3d-scatter-halos">
-                  <option value="3d_scatter">Yeah i want halos</option>
-                  <option value="3d_scatter_with_halos" selected="selected">No halos</option>
-                  <option value="3d_scatter_zr">With zoom and rotation (NEW)</option>
-                  <!-- <option value="3d_scatter_jenny">With subliminal Jennys</option> -->
+                  <option value="3d_scatter_zr">With zoom and rotation</option>
                 </select>
                 <video id="3d-scatter-vid" width="800" controls>
                   <source id="3d-scatter-vid-src" src="/video/3d_scatter.mp4" type="video/mp4">
