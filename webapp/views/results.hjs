@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Visualize the Universe - CS 594 Final Project</title>
+    <title>Visualize the Universe</title>
     {{>head}}
     <script type="text/javascript">
       $(function(){
