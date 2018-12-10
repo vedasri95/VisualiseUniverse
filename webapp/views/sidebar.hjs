@@ -2,7 +2,7 @@
   <div data-spy="affix" data-offset-top="45" data-offset-bottom="90">
     <ul class="nav" id="sidebar-nav">
       <li {{#intro}}class="active"{{/intro}}><a href="/">Introduction</a></li>
-      <li {{#tasks}}class="active"{{/tasks}}><a href="/tasks">Tasks</a></li>
+      <li {{#tasks}}class="active"{{/tasks}}><a href="/tasks">Objectives</a></li>
       <li {{#data}}class="active"{{/data}}><a href="/data">Data</a></li>
       <li {{#results}}class="active"{{/results}}><a href="/results">Analysis Results</a></li>
     </ul>

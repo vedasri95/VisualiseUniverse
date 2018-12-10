@@ -78,7 +78,7 @@
             <div class="panel panel-default">
               <div class="panel-heading">3D Visualization</div>
               <div class="panel-body">
-                <p>This visualization is a 3D scatter plot displaying the particle locations over time at 10 FPS.</p>
+                <p>This visualization is a 3D scatter plot displaying the particle locations over time.</p>
                 <br>
                 <br>
                 <label for="3d-scatter-halos">You want halos with that?</label>
