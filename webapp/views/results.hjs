@@ -68,7 +68,7 @@
             <div class="panel panel-default">
               <div class="panel-heading">Traversing the z-axis</div>
               <div class="panel-body">
-                <p>This visualization depicts coloring points by particle z-velocity in the x-y plane. The video advances along the z-axis beginning at a large halo, at a rate of 24 parsecs / frame, with a framerate of 60 FPS.</p>
+                <p>This visualization depicts coloring points by particle z-velocity in the x-y plane. The video advances along the z-axis beginning at a large halo, and disappearing as it moves along the axis.</p>
                 <video id="z-travel-vid" width="800" controls>
                   <source id="z-travel-vid-src" src="/video/zoom60fps.mp4" type="video/mp4">
                 </video>
