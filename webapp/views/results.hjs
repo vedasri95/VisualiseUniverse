@@ -28,17 +28,14 @@
           {{> sidebar}}
           <div class="col-xs-12 col-sm-9" data-spy="scroll" data-target="#sidebar-nav">
             <h1>Results</h1>
-            <p>The source code for all visualizations shown below is available with additional documentation <a href="https://github.com/tonygallotta/cs594-final-project" target="_blank">on github</a>.</p>
-            <p>Parallelization of the computations was achieved using MPI, with each process generating a single image. Since most of the computations were performed on the 100(ish) time indexed data files, 100 processes was the limit of parallelization in most cases.</p>
-
             <div class="panel panel-default">
               <div class="panel-heading">Dark Matter Density over Time</div>
               <div class="panel-body">
-                <p>This visualization uses the time sequenced data files found <a href="http://darksky.slac.stanford.edu/scivis2015/data/ds14_scivis_0128/">here</a>, creating an x-axis projection of the dark matter density for each file. The images are combined at a framerate of 10 FPS (frames per second) to create a video. These images were created using yt and varying color maps. You can change the color map in the dropdown below.</p>
+                <p>This visualization uses the time sequenced particle dataset found <a href="http://darksky.slac.stanford.edu/scivis2015/data/ds14_scivis_0128/">here</a>, creating an x-axis projection of the dark matter density for each particle. You can change the color map in the dropdown below.</p>
                 <label for="cmap">Color Map</label>
                 <select name="cmap" id="cmap">
-                  <option value="green">Green</option>
                   <option value="plasma">Plasma</option>
+                  <option value="green">Green</option>
                   <option value="purple">Purples</option>
                   <option value="copper">Copper</option>
 
@@ -46,7 +43,7 @@
                 <br>
                 <br>
                 <video id="dark-matter-density-vid" width="800" controls>
-                    <source id="dark-matter-density-vid-src" src="/video/green.mp4" type="video/mp4">
+                    <source id="dark-matter-density-vid-src" src="/video/plasma.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -54,7 +51,7 @@
             <div class="panel panel-default">
               <div class="panel-heading">Halo Evolution over Time</div>
               <div class="panel-body">
-                <p>This visualation shows a z-axis projection of particles and halos over time. One shows only halos, and the other shows halos (magenta) on top of particle data.</p>
+                <p>This visualization shows a z-axis projection of particles and halos over time. Different views - Halos and Halos + Particles have been made available.</p>
                 <label for="type">Visualization Type:</label>
                 <select name="type" id="type">
                   <option value="halos_over_time_white">Halos Only</option>
@@ -71,9 +68,7 @@
             <div class="panel panel-default">
               <div class="panel-heading">Traversing the z-axis</div>
               <div class="panel-body">
-                <p>This visualation uses the <a href="http://darksky.slac.stanford.edu/simulations/ds14_a/">large (31TB) dataset</a>, coloring points by particle z-velocity in the x-y plane. The video advances along the z-axis beginning at a large halo, at a rate of 24 parsecs / frame, with a framerate of 60 FPS.</p>
-                <strong>Issues</strong>
-                <p>Either Blue Waters or the Stanford servers hosting the simulation output weren't super happy about trying to process 2048 network requests in parallel, and as a result about half of the processes failed when I ran this simulation. So I did 3 or 4 passes of this, figuring out which images were missing after each run.</p>
+                <p>This visualization depicts coloring points by particle z-velocity in the x-y plane. The video advances along the z-axis beginning at a large halo, at a rate of 24 parsecs / frame, with a framerate of 60 FPS.</p>
                 <video id="z-travel-vid" width="800" controls>
                   <source id="z-travel-vid-src" src="/video/zoom60fps.mp4" type="video/mp4">
                 </video>
@@ -83,7 +78,7 @@
             <div class="panel panel-default">
               <div class="panel-heading">3D Visualization</div>
               <div class="panel-body">
-                <p>This visualation uses matplotlib to create a 3D scatter plot displaying the particle locations over time at 10 FPS.</p>
+                <p>This visualization is a 3D scatter plot displaying the particle locations over time at 10 FPS.</p>
                 <br>
                 <br>
                 <label for="3d-scatter-halos">You want halos with that?</label>
@@ -96,20 +91,6 @@
                 <video id="3d-scatter-vid" width="800" controls>
                   <source id="3d-scatter-vid-src" src="/video/3d_scatter.mp4" type="video/mp4">
                 </video>
-              </div>
-            </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading">Volume Rendering</div>
-              <div class="panel-body">
-                <p>I wanted to use yt to do some volume rendering, because <a href="http://yt-project.org/doc/visualizing/volume_rendering.html" target="_blank">the examples</a> looked really cool. But if you try to just plug in the dark sky data to one of them, you'll see it hang for a long time, then you get one or many "Failed to split grids" errors. I dug into the yt source code and found that this is because all of the volume rendering code assumes your Dataset has a grid structure, and utilizes that all over (all the way down to the C code).</p>
-
-                <p>It looks like SDF is the first format incorporated into yt that <em>doesn't</em> have a grid structure. So it seems like there are two options to get this working:</p>
-                <ul>
-                  <li>Rewrite yt's volume rendering algo</li>
-                  <li>Convert the SDF data to a grid</li>
-                </ul>
-                <p>The latter seems like an easier option. I made an attempt to do this but wasn't able to get it working (just got some empty images back).</p>
               </div>
             </div>
 
